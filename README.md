@@ -1,18 +1,23 @@
 # NII_workshop
 
 
-```{R Basics}
-hello <- function(){
-  print('Hello World')
-}
+```
+> my_fav_variable <- c('IL6','LINC','OAS1')
+> my_fav_varıable
+Error: object 'my_fav_varıable' not found
+> This is because the vector name is not the same.
 
-# this is a comment
+#this is an example of character vector
+arnab_gpcr_pathway <- c('ligand', 'gpcr', 'g_alpha', 'cAMP', 'CRE', 'IL2')
+> arnab_gpcr_pathway
+[1] "ligand"  "gpcr"    "g_alpha" "cAMP"    "CRE"     "IL2"    
+> 
 
-a <- 1
 
-double_name <- c('aa', 'bb', 'cc')
-xyz <- c(xx = 'X', yy = 'Y', zz = 'Z')
-
+#this is an example of numeric vector
+arnab_numbers <- c('1', '2', '3', '4', '5', '6')
+> arnab_numbers
+[1] "1" "2" "3" "4" "5" "6"
 
 ```
 
