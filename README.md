@@ -16,9 +16,9 @@ arnab_gpcr_pathway <- c('ligand', 'gpcr', 'g_alpha', 'cAMP', 'CRE', 'IL2')
 
 
 # this is an example of numeric vector
-arnab_numbers <- c('1', '2', '3', '4', '5', '6')
-> arnab_numbers
-[1] "1" "2" "3" "4" "5" "6"
+arnab_numbers <- c(1, 2, 3, 4, 5, 6)
+arnab_numbers
+[1] 1 2 3 4 5 6
 
 ```
 
